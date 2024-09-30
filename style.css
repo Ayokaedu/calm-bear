@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+:root{
+   --calmbear: #08748C;
+  --button1: #F97F0F;
+  --section: #FCBB80;
+  --hero:rgba(8, 116, 140, 0.3);
+  --button: #88D5E6; 
+  --card: #F6FDFF;
+  --bottom: #000000;
+  --Reddit: "Reddit sans", sans-serif;
+  --Righteous: "Righteous",sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+   background-color: var(--calmbear);
+}
+
+
+   .calmbear{
+width: 150px;
+height: 100px;
+padding: 16px 0px 16px 0px;
+gap: 7px;
+border-radius: 4px 0px 0px 0px;
+}
+button{
+font-family: var(--Reddit);
+border-radius: 8px;
+}
+.btn-links{
+  color: white;
+  background-color: #F97F0F;
+  border-radius: 8px;
+  width: 150px;
+  border: none;
+}
+#btn-links{
+  color: white;
+  font-family: var(--Reddit);
+  font-weight: 600;
+  font-size: 16px;
+}
+.reg{
+  font-family: var(--Reddit);
+  background-color: var(--calmbear);
+  border-radius: 9px;
+ border: 2px solid var(--button1);
+  width: 150px;
+}
+#reg{
+  color: #F97F0F;
+  font-family: var(--Reddit);
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+
+     /* hero section */
+     #hero{
+        background-color: var(--hero);
+     }
+     .container{
+      align-self: center;
+      margin: 20px;
+      justify-content: space-between;
+     }
+     #hero h1{
+        font-family: var(--Righteous);
+         font-size: 80px;
+     }
+
+     #hero p{
+        font-family: var(--Reddit);
+        font-size: 18px;
+     }
+    
+     .image-link{
+       width: 400px;
+      margin: 70px;
+     }
+    
+     .download {
+        border-radius: 10px;
+      width: 150px;
+       height: 35px;
+       font-size: 18px;
+       font-weight: 400px;
+       background-color: var(--button1);
+       font-family: var(--Reddit);
+       border: none;
+       color: white;
+     }
+  
+     .register{
+        border-radius: 10px;
+         width: 150px;
+       height: 35px;
+       font-size: 16px;
+       font-weight: 400px;
+        font-family: var(--Reddit);
+        background-color: transparent;
+         border: 2px solid var(--button1);
+         color: #F97F0F;
+     }
+   
+     
+     #sesh{
+      justify-content: center;
+      align-content: center;
+      background-color: var(--section);
+         width: 800px;
+         border-radius: 20px;
+         top: 600px;
+         right: 80px;
+         left: 200px;
+          gap: 50px;
+          position: absolute;
+          font-weight: bolder;
+          font-weight: 400;
+     }
+
+     #sesh-1{
+      background-image: url(./Group\ 3.png);
+      background-repeat: no-repeat;
+     }
+
+     .Read{
+      display: flex;
+      justify-content: space-around;
+      align-self: center;
+     margin-top: 200px;
+
+     }
+     #Rect{
+      width: 600px;
+     }
+
+   h2{
+     font-weight: 800px;
+     font-family: var(--Righteous);
+   }
+   
+   .mental{
+      font-family: var(--Reddit);
+      font-size: 20px;
+   }
+   .Read-1{
+      border-radius: 10px;
+      background-color: #F97F0F;
+      color: white;
+      width: 150px;
+      height: 35px;
+      border: none;
+   }
+
+   .offer{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      /* margin-right: 10px; */
+      background-color: var(--button);
+     /* height: 35px; */
+   }
+
+   .offer-1 img{
+     width: 600px;
+     /* height: 35px; */
+   }
+
+   #sect{
+     align-self: center;
+     margin-right: 20px;
+   }
+
+   #sect-1{
+      font-family: var(--Righteous);
+      font-weight: 800;
+      font-size: 50px;
+   }
+
+li::marker{
+   color: #F97F0F;
+}
+   .offer button{
+      border-radius: 10px;
+      font-family: var(--Reddit);
+      width: 150px;
+       height: 35px;
+   }
+   .down{
+      font-size: 18px;
+       font-weight: 400px;
+       background-color: var(--button1);
+       border: none;
+       color: white;
+   }
+
+   .regg{
+font-size: 16px;
+       font-weight: 400px;
+        background-color: transparent;
+         border: 2px solid var(--button1);
+         color: #F97F0F;
+     }
+     #started{
+      margin-top: 100px;
+     }
+    #started img{
+      margin-top: 50px;
+      width: 250px;
+    }
+
+     #started h1{
+      font-size: 50px;
+    font-weight: 700;
+    font-family: var(--Righteous);
+     }
+    #started h4{
+      font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Righteous);
+       margin: 15px 0px;
+    margin-bottom: 30px;
+    }
+    #started p{
+      line-height: 1.5;
+      font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-family: var(--Reddit);
+    }
+    .choose{
+      margin-top: 100px ;
+    }
+
+    .choose h1{
+     font-weight: 300px;
+     font-family: var(--Righteous);
+     font-size: 80px;
+     padding: 50px;
+    }
+
+    .choose p{
+      font-family:var(--Reddit);
+      font-weight: 400;
+      line-height: 1.5;
+      padding: 20px;
+      margin-top: -70px;
+    }
+    .choose img{
+      width: 500px;
+      padding: 20px;
+    }
+    .choose button{
+       border-radius: 10px;
+      font-family: var(--Reddit);
+      width: 150px;
+       height: 35px;
+    }
+    #projects h1{
+      margin-top: 50px;
+      font-family: var(--Righteous);
+      font-weight: 600;
+      font-size: 50px;
+    }
+#barry{
+   background-color: var(--card);
+   font-family: var(--Reddit);
+   font-weight: 600;
+}
+#down-sesh{
+   background-image: url(./Frame\ 1171276764.png);
+   padding: 30px;
+}
+
+.bottom{
+   border: none;
+   border-radius: 10px;
+      width: 150px;
+       height: 35px;
+       font-family: var(--Reddit);
+       font-size: 18px;
+       font-weight: 400px;
+       background-color: var(--button1);
+       color: white;
+}
+.bott{
+   border-radius: 10px;
+   width: 150px;
+       height: 35px;
+    font-size: 18px;
+       font-weight: 400px;
+       font-family: var(--Reddit);
+        background-color: transparent;
+         border: 2px solid var(--button1);
+         color: #F97F0F;
+}
+#down-sesh h1{
+   color: white;
+   font-family: var(--Righteous);
+}
+
+#down-sesh button{
+   margin-top: 20px;
+}
+
+footer{
+   background-color: var(--bottom);
+  color: white;
+}
+.foot-down img{
+   margin-bottom: 20px;
+}
+.foot-down{
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   gap: 20px;
+    position: relative;
+}
+.foot-down ul li{
+ list-style-type: none;
+ font-family: var(--Reddit);
+}
+.foot-down h1{
+   font-family: var(--Righteous);
+}
+.foot-down p{
+   font-family: var(--Reddit);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 25px;
+   
+}
+
+.sub{
+   align-content: center;
+   width: 320px;
+   height: 50px;
+   border: none;
+   border-radius: 8px;
+   background-color: white;
+   color: #000000;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: var(--Reddit);
+}
+.sub input{
+   border: none;
+   height: 50px;
+   width: 200px;
+   border-radius: 6px;
+   padding-left: 5px;
+}
+.sub button{
+   border: none;
+   border-radius: 7px;
+   padding: 5px 17px 5px 20px;
+   background-color: var(--button1);
+   color: white;
+}
+
+
+/* .begin-wrapper{
+    backgroung image:
+    bacground repeat: no repeat
+    background size: cover;
+    background position: left
+
+} */
